@@ -8,16 +8,11 @@
 ## Getting Started (Tutors)
 
 ### Requirements
-* Python TODO
-* Numpy
-* Pytorch
-* Pandas
-* Skilearn
-* Matplotlib
-* Opencv-Python
----
-Todo
-
+Install packages listed in `requirements.txt`
+```
+pip install -r requirements.txt
+```
+Additionally, install `Pytorch`
 
 ## Getting Started (Team)
 
@@ -25,17 +20,11 @@ Clone the repository
 ```
 git clone https://github.com/seung-cha/9517-ass.git
 ```
-
-
-Install the packages
-```bash
-pip install -r requirements.txt
-```
 Create a virtual environment (optional)
 
 ### Conda
 ```bash
-conda create -n 9517_ass python=TODO
+conda create -n 9517_ass python=3.12
 conda activate 9517_ass
 ```
 
@@ -45,4 +34,14 @@ python3 -m venv .venv
 source ./.venv/bin/activate
 ```
 
-Todo
+
+Install the packages
+```bash
+pip install -r requirements.txt
+```
+
+### Update requirements.txt
+If you have installed more packages, update the requirements file:
+```bash
+pip freeze > requirements.txt
+```
